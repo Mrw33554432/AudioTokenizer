@@ -13,7 +13,7 @@ Notice that we are using a rather simple model, primarily trained on ZH dataset,
 
 First, let's play the original audio for three samples. All audio samples are randomly picked from websites and datasets that are not used in training.
 
-Original Audio Sample 1 (Zero/One Shot):
+#### Original Audio Sample 1 (Zero/One Shot):
 
 <audio controls>
   <source src="audio/speaker.wav" type="audio/wav">
@@ -22,7 +22,7 @@ Original Audio Sample 1 (Zero/One Shot):
 
 [Download Sample 1](audio/speaker.wav)
 
-Original Audio Sample 2 (Zero Shot):
+#### Original Audio Sample 2 (Zero Shot):
 
 <audio controls>
   <source src="audio/nana_1.mp3" type="audio/mp3">
@@ -31,7 +31,7 @@ Original Audio Sample 2 (Zero Shot):
 
 [Download Sample 2](audio/nana_1.mp3)
 
-Original Audio Sample 3 (Zero Shot):
+#### Original Audio Sample 3 (Zero Shot):
 
 <audio controls>
   <source src="audio/speaker_female.wav" type="audio/wav">
@@ -210,7 +210,7 @@ tensor([[44529, 43238, 46054, 37622, 39349, 55476, 47254, 63912, 44781, 33495,
 ## Reconstructed Audio
 Using the tokens, we can reconstruct the original audio for each sample. Here are the reconstructed audios.
 
-Reconstructed Audio Sample 1:
+#### Reconstructed Audio Sample 1:
 
 <audio controls>
   <source src="audio/speaker_generated.wav" type="audio/wav">
@@ -219,7 +219,7 @@ Reconstructed Audio Sample 1:
 
 [Download Reconstructed Sample 1](audio/speaker_generated.wav)
 
-Reconstructed Audio Sample 2:
+#### Reconstructed Audio Sample 2:
 
 <audio controls>
   <source src="audio/nana_1_generated.wav" type="audio/mp3">
@@ -228,7 +228,7 @@ Reconstructed Audio Sample 2:
 
 [Download Reconstructed Sample 2](audio/nana_1_generated.wav)
 
-Reconstructed Audio Sample 3:
+#### Reconstructed Audio Sample 3:
 
 <audio controls>
   <source src="audio/speaker_female_generated.wav" type="audio/wav">
