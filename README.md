@@ -20,6 +20,8 @@ Original Audio Sample 1 (Zero/One Shot):
   Your browser does not support the audio element.
 </audio>
 
+[Download Sample 1](audio/speaker.wav)
+
 Original Audio Sample 2 (Zero Shot):
 
 <audio controls>
@@ -27,12 +29,16 @@ Original Audio Sample 2 (Zero Shot):
   Your browser does not support the audio element.
 </audio>
 
+[Download Sample 2](audio/nana_1.mp3)
+
 Original Audio Sample 3 (Zero Shot):
 
 <audio controls>
   <source src="audio/speaker_female.wav" type="audio/wav">
   Your browser does not support the audio element.
 </audio>
+
+[Download Sample 3](audio/speaker_female.wav)
 
 ## Audio Tokens
 
@@ -207,22 +213,28 @@ Using the tokens, we can reconstruct the original audio for each sample. Here ar
 Reconstructed Audio Sample 1:
 
 <audio controls>
-<source src="audio/speaker_generated.wav" type="audio/wav">
-Your browser does not support the audio element.
+  <source src="audio/speaker_generated.wav" type="audio/wav">
+  Your browser does not support the audio element.
 </audio>
+
+[Download Reconstructed Sample 1](audio/speaker_generated.wav)
 
 Reconstructed Audio Sample 2:
 
 <audio controls>
-<source src="audio/nana_1_generated.wav" type="audio/wav">
-Your browser does not support the audio element.
+  <source src="audio/nana_1_generated.wav" type="audio/mp3">
+  Your browser does not support the audio element.
 </audio>
+
+[Download Reconstructed Sample 2](audio/nana_1_generated.wav)
 
 Reconstructed Audio Sample 3:
 
 <audio controls>
-<source src="audio/speaker_female_generated.wav" type="audio/wav">
-Your browser does not support the audio element.
+  <source src="audio/speaker_female_generated.wav" type="audio/wav">
+  Your browser does not support the audio element.
 </audio>
+
+[Download Reconstructed Sample 3](audio/speaker_female_generated.wav)
 
 This concludes the demo of our audio tokenization and reconstruction process. The ability to tokenize and reconstruct audio accurately has significant implications for various applications in audio processing and machine learning.
